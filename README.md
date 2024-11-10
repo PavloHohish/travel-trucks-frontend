@@ -19,17 +19,17 @@ trucks.
 
 1. Clone the repository:
 
-   ```bash
+   ```
    git clone https://github.com/PavloHohish/travel-trucks-frontend.git
 
    ```
 
 2. Install dependencies:
-   ```cd travel-trucks-frontend
+   ```
    npm install
    ```
 3. Run the application locally:
 
-   ```npm run dev
-
+   ```
+   npm run dev
    ```
