@@ -1,0 +1,15 @@
+.nfContainer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.link {
+  color: var(--button-hover);
+}
+
+.link:hover,
+.link:focus {
+  color: var(--rating);
+}

@@ -1,0 +1,19 @@
+.pageContainer {
+  display: flex;
+  gap: 64px;
+}
+
+.button {
+  display: block;
+
+  margin: 40px auto 0 auto;
+  padding: 16px 32px;
+
+  border-radius: 200px;
+  background-color: var(--white);
+  border: 1px solid var(--light-gray);
+
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: -0.01em;
+}

@@ -1,0 +1,28 @@
+.featuresList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.featuresItem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+
+  width: max-content;
+  border-radius: 100px;
+  padding: 12px 18px;
+
+  mix-blend-mode: multiply;
+  background: var(--badges);
+}
+
+.featureText {
+  text-transform: capitalize;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  color: var(--main);
+}

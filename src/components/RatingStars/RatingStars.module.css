@@ -1,0 +1,19 @@
+.starsContainer {
+  display: flex;
+  gap: 4px;
+}
+
+.star {
+  width: 16px;
+  height: 16px;
+
+  transition: color 0.3s ease-in-out;
+}
+
+.filledStar {
+  fill: var(--yellow);
+}
+
+.emptyStar {
+  fill: var(--badges);
+}

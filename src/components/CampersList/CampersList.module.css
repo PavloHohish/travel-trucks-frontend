@@ -1,0 +1,17 @@
+.campersList {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.loaderOverlay {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  z-index: 1000;
+}

@@ -1,0 +1,42 @@
+.header {
+  position: relative;
+
+  padding: 24px 64px;
+
+  display: flex;
+  justify-content: center;
+
+  background: var(--inputs);
+}
+
+.header::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  border-bottom: 1px solid var(--badges);
+}
+
+.logo {
+  width: 136px;
+  height: 16px;
+
+  position: absolute;
+  top: 28px;
+  left: 64px;
+}
+
+.nav {
+  display: flex;
+  gap: 32px;
+}
+
+.link:hover,
+.link:focus {
+  color: var(--button-hover);
+}
+
+.active {
+  color: var(--button-hover);
+}

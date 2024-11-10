@@ -1,0 +1,36 @@
+.featuresContainer {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  padding: 44px 52px;
+  background-color: var(--inputs);
+}
+
+.title {
+  margin-top: 100px;
+  margin-bottom: 24px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid var(--light-gray);
+
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.detailsList {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin: 0;
+  text-transform: capitalize;
+}
+
+.detailLabel {
+  font-size: 16px;
+}
+
+.detailValue {
+  margin: 0;
+  font-size: 16px;
+  text-align: right;
+}

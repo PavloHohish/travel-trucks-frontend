@@ -1,0 +1,10 @@
+<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Білий квадратний фон -->
+  <rect width="40" height="40" fill="white"/>
+
+  <!-- Перша літера "Т", трохи лівіше і нижче -->
+  <path d="M8 16V12H20V16H16V28H12V16H8Z" fill="#101828"/>
+  
+  <!-- Друга літера "Т", трохи правіше і нижче -->
+  <path d="M20 16V12H32V16H28V28H24V16H20Z" fill="#475467"/>
+</svg>
