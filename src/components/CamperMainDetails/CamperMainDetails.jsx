@@ -1,4 +1,7 @@
 import css from './CamperMainDetails.module.css';
+import { SlMap } from 'react-icons/sl';
+import { FaStar } from 'react-icons/fa';
+
 import { formatPrice } from '../../utils/formatters';
 
 export default function CamperMainDetails({ data }) {
@@ -9,9 +12,11 @@ export default function CamperMainDetails({ data }) {
 
         <div className={css.containerRatingLocation}>
           <span className={css.rateAndLocation}>
+            <FaStar className={css.star} />
             <p className={css.textRating}>{data.rating}(2 Reviews)</p>
           </span>
           <span className={css.rateAndLocation}>
+            <SlMap />
             <p className={css.textLocation}>{data.location}</p>
           </span>
         </div>

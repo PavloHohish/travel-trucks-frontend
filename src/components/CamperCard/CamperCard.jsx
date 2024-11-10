@@ -1,4 +1,8 @@
 import css from './CamperCard.module.css';
+import clsx from 'clsx';
+import { IoMdHeartEmpty } from 'react-icons/io';
+import { SlMap } from 'react-icons/sl';
+import { FaStar } from 'react-icons/fa';
 import { useEffect, useState } from 'react';
 
 import FeatureList from '../FeatureList/FeatureList';
@@ -39,18 +43,21 @@ export default function CamperCard({ data }) {
             <h2 className={css.title}>{data.name}</h2>
             <span className={css.priceAndFavourite}>
               <p>€{formatPrice(data.price)}</p>
-              <button
-                onClick={handleFavoriteClick}
-                className={css.favoriteBtn}
-              ></button>
+              <button onClick={handleFavoriteClick} className={css.favoriteBtn}>
+                <IoMdHeartEmpty
+                  className={clsx(css.heart, isFavorite && css.activeHeart)}
+                />
+              </button>
             </span>
           </div>
 
           <div className={css.containerRatingLocation}>
             <span className={css.rateAndLocation}>
+              <FaStar className={css.star} />
               <p className={css.textRating}>{data.rating}(2 Reviews)</p>
             </span>
             <span className={css.rateAndLocation}>
+              <SlMap />
               <p className={css.textLocation}>
                 {formatLocation(data.location)}
               </p>
